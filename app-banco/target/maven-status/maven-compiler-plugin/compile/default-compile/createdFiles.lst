@@ -1,0 +1,4 @@
+com/ifpb/appbanco/infra/ClientesEmMemoria.class
+com/ifpb/appbanco/domain/Controlador.class
+com/ifpb/appbanco/infra/ClientesJDBC.class
+com/ifpb/appbanco/domain/Cliente.class
