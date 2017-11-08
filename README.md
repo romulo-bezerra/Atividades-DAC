@@ -1,2 +1,2 @@
 # Atividades-DAC
-Repositório destinado às atividades de '''DAC'''.
+Repositório destinado às atividades de "'DAC'".
