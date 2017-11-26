@@ -21,6 +21,13 @@ public class ControladorDeLogin implements Serializable{
         return null;
     }
     
+    public String logarComoIntegrante(){
+        if(serviceUsuario.usuarioValido(usuario)){
+            return "cadastroIntegrantes.xhtml";
+        }
+        return null;
+    }
+    
     public Usuario getUsuario() {
         return usuario;
     }

@@ -1,6 +1,8 @@
 
 package br.edu.ifpb.model.integrante;
 
+import java.util.Objects;
+
 public class Integrante {
     
     private String nome;
@@ -8,6 +10,11 @@ public class Integrante {
     
     public Integrante(){
         
+    }
+
+    public Integrante(String nome, CPF cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
     }
 
     public String getNome() {
@@ -24,6 +31,35 @@ public class Integrante {
 
     public void setCpf(CPF cpf) {
         this.cpf = cpf;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 29 * hash + Objects.hashCode(this.nome);
+        hash = 29 * hash + Objects.hashCode(this.cpf);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Integrante other = (Integrante) obj;
+        if (!Objects.equals(this.nome, other.nome)) {
+            return false;
+        }
+        if (!Objects.equals(this.cpf, other.cpf)) {
+            return false;
+        }
+        return true;
     }
        
 }
