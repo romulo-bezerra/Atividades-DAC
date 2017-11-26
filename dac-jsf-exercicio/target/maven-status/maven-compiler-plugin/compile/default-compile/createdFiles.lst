@@ -1,0 +1,12 @@
+br/edu/ifpb/web/ControladorDeAlbum.class
+br/edu/ifpb/model/usuario/ServiceUsuario.class
+br/edu/ifpb/model/album/Albuns.class
+br/edu/ifpb/model/usuario/Autenticavel.class
+br/edu/ifpb/model/usuario/Usuario.class
+br/edu/ifpb/web/ControladorDeLogin.class
+br/edu/ifpb/model/integrante/CPF.class
+br/edu/ifpb/infra/persistence/memory/AlbunsEmMemoria.class
+br/edu/ifpb/model/album/ServiceAlbum.class
+br/edu/ifpb/infra/jsf/convert/LocalDateConvert.class
+br/edu/ifpb/model/album/Album.class
+br/edu/ifpb/model/integrante/Integrante.class

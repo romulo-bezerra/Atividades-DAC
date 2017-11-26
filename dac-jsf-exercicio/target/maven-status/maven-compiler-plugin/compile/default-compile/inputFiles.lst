@@ -1,0 +1,12 @@
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/album/Album.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/album/Albuns.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/persistence/memory/AlbunsEmMemoria.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/album/ServiceAlbum.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/integrante/CPF.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeAlbum.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/jsf/convert/LocalDateConvert.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/integrante/Integrante.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/usuario/ServiceUsuario.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/usuario/Autenticavel.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/usuario/Usuario.java
+/home/romulo/NetBeansProjects/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeLogin.java

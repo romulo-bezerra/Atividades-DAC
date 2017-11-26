@@ -1,0 +1,5 @@
+com/ifpb/entidades/Album.class
+com/ifpb/entidades/Estilo.class
+com/ifpb/servlet/FrontControl.class
+com/ifpb/interfaces/Command.class
+com/ifpb/entidades/Banda.class

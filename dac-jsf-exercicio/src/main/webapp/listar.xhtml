@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+
+        <h:outputText value="Bem vindo, #{controladorDeLogin.usuario.nome}" />
+
+        <h:form>
+            <h:dataTable value="#{controladorDeAlbum.listarAlbuns()}" var="album">
+                <h:column>
+                    <f:facet name="header">Descrição</f:facet>
+                    <h:outputText value="#{album.descricao}"></h:outputText>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Lançamento</f:facet>
+                    <h:outputText converter="convert.LocalDate" value="#{album.dataDeLancamento}"></h:outputText>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Ação</f:facet>
+                    <h:commandButton value="excluir" action="#{controladorDeAlbum.removerAlbum(album)}"/>
+                </h:column>
+            </h:dataTable>
+        </h:form>
+    </h:body>
+</html>
