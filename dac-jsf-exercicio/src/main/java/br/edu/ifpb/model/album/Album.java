@@ -1,6 +1,7 @@
 
 package br.edu.ifpb.model.album;
 
+import br.edu.ifpb.model.banda.Banda;
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -8,14 +9,16 @@ public class Album {
     
     private String descricao;
     private LocalDate dataDeLancamento;
+    private Banda banda;
 
     public Album(){
-    
+        
     }
 
-    public Album(String descricao, LocalDate dataDeLancamento) {
+    public Album(String descricao, LocalDate dataDeLancamento, Banda banda) {
         this.descricao = descricao;
         this.dataDeLancamento = dataDeLancamento;
+        this.banda = banda;
     }
 
     public String getDescricao() {
@@ -34,11 +37,20 @@ public class Album {
         this.dataDeLancamento = dataDeLancamento;
     }
 
+    public Banda getBanda() {
+        return banda;
+    }
+
+    public void setBanda(Banda banda) {
+        this.banda = banda;
+    }
+
     @Override
     public int hashCode() {
-        int hash = 5;
-        hash = 29 * hash + Objects.hashCode(this.descricao);
-        hash = 29 * hash + Objects.hashCode(this.dataDeLancamento);
+        int hash = 7;
+        hash = 23 * hash + Objects.hashCode(this.descricao);
+        hash = 23 * hash + Objects.hashCode(this.dataDeLancamento);
+        hash = 23 * hash + Objects.hashCode(this.banda);
         return hash;
     }
 
@@ -58,6 +70,9 @@ public class Album {
             return false;
         }
         if (!Objects.equals(this.dataDeLancamento, other.dataDeLancamento)) {
+            return false;
+        }
+        if (!Objects.equals(this.banda, other.banda)) {
             return false;
         }
         return true;

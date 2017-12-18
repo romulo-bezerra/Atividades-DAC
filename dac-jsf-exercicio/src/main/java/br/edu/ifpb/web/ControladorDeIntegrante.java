@@ -16,7 +16,7 @@ public class ControladorDeIntegrante {
     
     public String salvarIntegrante(){
         if(serviceIntegrante.salvarIntegrante(integrante)){
-            return "listarIntegrantes.xhtml";
+            return "cadastroBanda.xhtml";
         }
         return null;
     }

@@ -3,6 +3,7 @@ package br.edu.ifpb.infra.persistence.memory;
 
 import br.edu.ifpb.model.album.Album;
 import br.edu.ifpb.model.album.Albuns;
+import br.edu.ifpb.model.integrante.Integrante;
 import java.util.ArrayList;
 import java.util.List;
 

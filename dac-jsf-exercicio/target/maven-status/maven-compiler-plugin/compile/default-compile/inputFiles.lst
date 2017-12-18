@@ -3,10 +3,15 @@
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/jsf/convert/LocalDateConvert.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/persistence/memory/AlbunsEmMemoria.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeLogin.java
+/home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeBanda.java
+/home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/banda/Bandas.java
+/home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/banda/ServiceBanda.java
+/home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/persistence/memory/BandasEmMemoria.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/integrante/Integrante.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/integrante/ServiceIntegrante.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeAlbum.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/usuario/ServiceUsuario.java
+/home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/banda/Banda.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/model/album/ServiceAlbum.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/web/ControladorDeIntegrante.java
 /home/romulo/Atividades-DAC/dac-jsf-exercicio/src/main/java/br/edu/ifpb/infra/jsf/convert/CPFConvert.java
