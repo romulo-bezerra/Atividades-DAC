@@ -1,0 +1,14 @@
+/ex-stateful/service-shared-stateful/target/
+/ex-stateful/service-core-stateful/target/
+/ex-stateful/app-jsf-stateful/target/
+/ex-stateful/app-servlet-stateful/target/
+/ex-stateful/app-jse-stateful/target/
+/ex-stateful/app-jse-stateful1/target/
+/stateless01/service-core-stateless/target/
+/stateless01/app-jse-stateless/target/
+/stateless01/app-jsf-stateless/target/
+/dac-ejb-stateless/app-jse-stateless/target/
+/dac-ejb-stateless/app-jsf-stateless/target/
+/dac-ejb-stateless/app-servlet-stateless/target/
+/dac-ejb-stateless/service-core-stateless/target/
+/dac-ejb-stateless/service-shared-stateless/target/
