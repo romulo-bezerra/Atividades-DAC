@@ -26,7 +26,8 @@ public class App extends HttpServlet {
     @Override
     public void init() {
         this.carrinho = new ServiceLookup()
-                    .lookup("localhost", "3700", "java:global/service-core-stateful/CarrinhoOnline");
+                    .lookup("host-core", "3700", 
+                            "java:global/service-core-stateful/CarrinhoOnline");
     }
 
     @Override

@@ -76,7 +76,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>app-jsf</finalName>
+        <finalName>app-jsf-stateful</finalName>
     </build>
 
 </project>

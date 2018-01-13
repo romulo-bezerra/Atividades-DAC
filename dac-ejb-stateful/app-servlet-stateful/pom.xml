@@ -76,7 +76,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>app-servlet</finalName>
+        <finalName>app-servlet-stateful</finalName>
     </build>
 
 </project>

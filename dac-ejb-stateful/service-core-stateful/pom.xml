@@ -76,7 +76,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>service-core</finalName>
+        <finalName>service-core-stateful</finalName>
     </build>
 
 </project>

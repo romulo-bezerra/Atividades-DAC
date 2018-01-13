@@ -1,2 +1,2 @@
 FROM payara/server-full
-COPY target/service-core.war $DEPLOY_DIR
+COPY target/service-core-stateful.war $DEPLOY_DIR

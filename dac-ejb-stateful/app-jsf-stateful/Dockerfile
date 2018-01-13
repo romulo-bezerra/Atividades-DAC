@@ -1,2 +1,2 @@
 FROM payara/server-full
-COPY target/app-jsf.war $DEPLOY_DIR
+COPY target/app-jsf-stateful.war $DEPLOY_DIR

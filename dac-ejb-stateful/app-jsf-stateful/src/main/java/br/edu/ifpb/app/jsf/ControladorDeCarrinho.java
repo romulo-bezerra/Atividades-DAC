@@ -22,7 +22,8 @@ public class ControladorDeCarrinho implements Serializable {
     @PostConstruct
     public void init() {
         this.carrinho = new ServiceLookup()
-                    .lookup("localhost", "3700", "java:global/service-core-stateful/CarrinhoOnline");
+                    .lookup("host-core", "3700", 
+                            "java:global/service-core-stateful/CarrinhoOnline");
     }
     
     public String add() {
