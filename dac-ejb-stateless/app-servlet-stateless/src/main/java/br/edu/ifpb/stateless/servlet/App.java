@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 public class App extends HttpServlet {
 
     private final Calculadora calc = new ServiceLookup()
-            .lookup("localhost", "3700",
+            .lookup("host-core", "3700",
                     "java:global/service-core-stateless/CalculadoraSimples");
 
     @Override

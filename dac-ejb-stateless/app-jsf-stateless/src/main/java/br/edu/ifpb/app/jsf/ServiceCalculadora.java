@@ -15,7 +15,7 @@ public class ServiceCalculadora {
     @PostConstruct
     public void init() {
         calculadora = new ServiceLookup()
-                .lookup("localhost", "3700",
+                .lookup("host-core", "3700",
                         "java:global/service-core-stateless/CalculadoraSimples");
     }
 
