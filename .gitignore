@@ -12,3 +12,5 @@
 /dac-ejb-stateless/app-servlet-stateless/target/
 /dac-ejb-stateless/service-core-stateless/target/
 /dac-ejb-stateless/service-shared-stateless/target/
+/exemplo-persistencia-jpa/target/
+/persistencia-jpa/target/
