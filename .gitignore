@@ -16,3 +16,8 @@
 /persistencia-jpa/target/
 /represen-relacionamento-ternario-jpa/target/
 /mapeamento-ternario-jpa/target/
+/dac-ejb-singleton/service-shared-singleton/target/
+/dac-ejb-singleton/service-core-singleton/target/
+/dac-ejb-singleton/app-jse-singleton/target/
+/dac-ejb-singleton/app-servlet-singleton/target/
+/dac-ejb-singleton/app-jsf-singleton/target/
