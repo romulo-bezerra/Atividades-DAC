@@ -5,7 +5,7 @@
  */
 package br.edu.ifpb.mapeamento.relacionamento.jpa.cenario01;
 
-import br.edu.ifpb.mapeamento.relacionamento.jpa.conversor.LocalDateConverter;
+import br.edu.ifpb.mapeamento.relacionamento.jpa.conversores.LocalDateConverter;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;

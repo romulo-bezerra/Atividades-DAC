@@ -17,8 +17,6 @@ public interface ConsertoDao {
 
     public Conserto consultarPorId(int idConserto, EntityManager em);
 
-    public void atualizar(Conserto novoEstado, EntityManager em);
-
     public void deletar(Conserto conserto, int idOficina, EntityManager em);
 
 }

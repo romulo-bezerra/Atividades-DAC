@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.edu.ifpb.mapeamento.relacionamento.jpa.conversor;
+package br.edu.ifpb.mapeamento.relacionamento.jpa.conversores;
 
 import java.sql.Date;
 import java.time.LocalDate;

@@ -5,10 +5,11 @@
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario01.Funcionario</class>
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario01.TrabalhaProjeto</class>
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario01.Projeto</class>
-    <class>br.edu.ifpb.mapeamento.relacionamento.jpa.conversor.LocalDateConverter</class>
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario02.Oficina</class>
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario02.FuncionarioOficina</class>
     <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario02.Conserto</class>
+    <class>br.edu.ifpb.mapeamento.relacionamento.jpa.conversores.LocalDateConverter</class>
+    <class>br.edu.ifpb.mapeamento.relacionamento.jpa.cenario03.MaterialDidatico</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/exercicio-mapeamento-jpa"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>

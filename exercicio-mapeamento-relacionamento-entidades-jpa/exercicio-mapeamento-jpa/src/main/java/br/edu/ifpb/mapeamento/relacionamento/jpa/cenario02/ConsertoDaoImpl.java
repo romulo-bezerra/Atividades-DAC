@@ -5,7 +5,6 @@
  */
 package br.edu.ifpb.mapeamento.relacionamento.jpa.cenario02;
 
-import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
@@ -30,12 +29,6 @@ public class ConsertoDaoImpl implements ConsertoDao {
         return createQuery.getSingleResult();
     }
 
-    @Override
-    public void atualizar(Conserto novoEstado, EntityManager em) {
-        em.merge(novoEstado);
-    }
-    
-    
     //metodo modo gambiarra 
     @Override
     public void deletar(Conserto conserto, int idOficina, EntityManager em) {
