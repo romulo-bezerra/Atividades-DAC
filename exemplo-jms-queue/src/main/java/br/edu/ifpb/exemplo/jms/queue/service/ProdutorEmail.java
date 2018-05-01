@@ -20,7 +20,8 @@ import javax.jms.Queue;
 @JMSDestinationDefinition(
         name = "java:global/jms/Fila",
         interfaceName = "javax.jms.Queue",
-        resourceAdapter = "jmsra")
+        resourceAdapter = "jmsra",
+        destinationName = "fila")
 @Stateless
 public class ProdutorEmail {
 
